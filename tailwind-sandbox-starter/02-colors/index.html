@@ -1,32 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Colors</title>
-  </head>
-  <body>
-    <!-- Default colors -->
-    <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
-    <!-- Text Colors -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Colors</title>
+</head>
 
-    <!-- Background Colors -->
+<body>
+  <!-- Default colors -->
+  <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
-    <!-- Text Underline -->
+  <!-- Text Colors -->
+  <p class="text-red-500">tailwind course is awesome</p>
+  <p class="text-white-500">tailwind course is awesome</p>
+  <p class="text-green-500">tailwind course is awesome</p>
+  <p class="text-emerald-400">tailwind course is awesome</p>
+  <p class="text-zinc-500">tailwind course is awesome</p>
+  <p class="text-slate-500">tailwind course is awesome</p>
 
-    <!-- Border Colors -->
+  <hr />
+  <hr />
+  <hr />
 
-    <!-- Divide Colors -->
+  <!-- Background Colors -->
+  <p class="bg-red-500">tailwind course is awesome</p>
+  <p class="bg-white-500">tailwind course is awesome</p>
+  <p class="bg-yellow-500">tailwind course is awesome</p>
+  <p class="bg-emerald-400">tailwind course is awesome</p>
+  <p class="bg-zinc-500">tailwind course is awesome</p>
+  <p class="bg-slate-500 text-white">tailwind course is awesome</p>
 
-    <!-- Outline Colors -->
+  <!-- Text Underline -->
+  <p class="underline">tailwind course is awesome</p>
+  <p class="underline decoration-red-500">tailwind course is awesome</p>
+  <p class="underline decoration-yellow-500 text-green-400">tailwind course is awesome</p>
+  <p class="underline decoration-zinc-300">tailwind course is awesome</p>
 
-    <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+  <!-- Border Colors -->
+  <input type="text" class="border border-blue-400 rounded shadow-xl" placeholder="enter your name here" />
+  <input type="password" class="border border-green-300" placeholder="enter your name here" />
+  <input type="dropdown" class="border border-red-300 decoration-red-500" />
 
-    <!-- Accent Colors -->
+  <!-- Divide Colors -->
+  <div class="divide-y divide-blue-600">
+    <div>item 1</div>
+    <div>item 2</div>
+    <div>item 3</div>
+    <div>item 4</div>
+    <div>item 5</div>
+  </div>
 
-    <!-- Arbitrary Colors -->
-  </body>
+  <!-- Outline Colors -->
+  <button class="outline outline-blue-400 rounded p-0.5">Submit</button>
+  <button class="outline outline-red-400 rounded p-0.5">Submit</button>
+
+  <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+  <button class="shadow-xl bg-cyan-400 shadow-red-400">subscribe</button>
+  <button class="shadow-xl bg-cyan-400 shadow-purple-400">subscribe</button>
+  <button class="shadow-xl bg-cyan-400 shadow-cyan-400">subscribe</button>
+
+  <!-- Accent Colors -->
+  <input type="checkbox" checked class="accent-purple-400">
+  <input type="checkbox" checked class="accent-red-400">
+
+  <!-- Arbitrary Colors -->
+  <div class="bg-[#427fab]">hello world</div>
+  <div class="bg-[rgb(255,0,0)]">hello world</div>
+  <div class="bg-[steelblue]">hello world</div>
+</body>
+
 </html>
